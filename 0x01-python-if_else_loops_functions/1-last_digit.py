@@ -12,4 +12,4 @@ elif (last_num) < 6 and (last_num)!= 0:
     str = ("and is less than 6 and not 0")
 else:
     str = ("and is 0")
-print(f"The last digit of {number} is {last_num} {str}")
+print(f"Last digit of {number} is {last_num} {str}")
