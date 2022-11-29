@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10000, 10000)
-print(number)
 num_str = str(number)
 last_num = num_str[-1]
 if int(last_num) > 5:
