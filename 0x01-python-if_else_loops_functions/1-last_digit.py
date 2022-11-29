@@ -8,7 +8,7 @@ if number < 0:
     last_num = last_num*-1
 if last_num > 5:
     str = ("and is greater than 5")
-elif (last_num) < 6 and (last_num)!= 0:
+elif (last_num) < 6 and (last_num) != 0:
     str = ("and is less than 6 and not 0")
 else:
     str = ("and is 0")
