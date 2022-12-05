@@ -5,5 +5,5 @@ def replace_in_list(my_list, idx, element):
     if idx < 0 or idx > len(cp_list):
         return cp_list
     else:
-        cp_list[idx] = new_element
+        cp_list[idx] = element
         return cp_list
