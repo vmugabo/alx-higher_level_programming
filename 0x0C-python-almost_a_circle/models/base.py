@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 """Define class """
 class Base:
     """Base Class with __nb_objects as private class attribute"""
