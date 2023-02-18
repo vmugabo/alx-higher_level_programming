@@ -29,15 +29,15 @@ class Rectangle(Base):
     @height.setter
     def height(self, value):
         if value <= 0:
-            raise ValueError("Width must be positive")
+            raise ValueError("height must be positive")
         self.__height == value
     @x.setter
     def x(self, value):
         if value <= 0:
-            raise ValueError("Width must be positive")
+            raise ValueError("x must be positive")
         self.__x == value
     @y.setter
     def y(self, value):
         if value <= 0:
-            raise ValueError("Width must be positive")
+            raise ValueError("y must be positive")
         self.__y == value    
