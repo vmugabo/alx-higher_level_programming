@@ -5,6 +5,7 @@ class Base:
 
 
     """Base Class with __nb_objects as private class attribute"""
+    
     __nb_objects = 0
 
     def __init__(self, id=None):
@@ -14,3 +15,4 @@ class Base:
         else:
             Base.__nb_objects += 1
             self.id = Base.__nb_objects
+            
