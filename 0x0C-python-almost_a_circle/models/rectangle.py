@@ -23,13 +23,21 @@ class Rectangle(Base):
         return self.__y
     @width.setter
     def width(self, value):
-        return self.__width == value
+        if value <= 0:
+            raise ValueError("Width must be positive")
+        self.__width == value
     @height.setter
     def height(self, value):
-        return self.__height == value
+        if value <= 0:
+            raise ValueError("Width must be positive")
+        self.__height == value
     @x.setter
     def x(self, value):
-        return self.__x == value
-    @property
+        if value <= 0:
+            raise ValueError("Width must be positive")
+        self.__x == value
+    @y.setter
     def y(self, value):
-        return self.__y == value    
+        if value <= 0:
+            raise ValueError("Width must be positive")
+        self.__y == value    
